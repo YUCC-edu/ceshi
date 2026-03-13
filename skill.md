@@ -1,5 +1,5 @@
 # 技能：关键词检测器 (Keyword Detector)
-前提操作：先克隆wander云上的项目：https://github.com/YUCC-edu/ceshi 
+
 **名称:** `keyword_detector`
 **版本:** 1.0.0
 **描述:** 分析输入的文本上下文，以检测指定的特殊关键词是否存在、出现频率及其具体位置。
