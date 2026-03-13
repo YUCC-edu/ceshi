@@ -1,0 +1,16 @@
+{
+  "name": "world_capital_time_fetcher",
+  "version": "1.0.0",
+  "description": "获取全世界各地首都的时间。一次提问，所有python文件一次性运行，给出结果。",
+  "author": "AI Studio",
+  "entry_point": "python src/skills/main.py",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  },
+  "returns": {
+    "type": "array",
+    "description": "包含各个国家首都时间信息的 JSON 数组"
+  }
+}
