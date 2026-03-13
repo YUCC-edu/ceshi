@@ -1,11 +1,12 @@
-<div align="center">
+# 关键词检测技能测试
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+本项目包含一个简单的关键词检测技能，专为测试智能体框架（如 openclaw）而设计。
 
-  <h1>Built with AI Studio</h2>
+## 功能特点
+- 在给定的文本上下文中检测多个特殊关键词。
+- 返回检测到的关键词的出现频率和索引位置。
+- 不区分大小写匹配。
+- 提供一个简单的 React 用户界面来交互式地测试该技能。
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## 使用方法
+核心技能逻辑位于 `src/skills/keywordDetector.ts` 中。它导出了一个 `detectKeywords` 函数，该函数接收一个上下文文本字符串和一个关键词数组作为参数。

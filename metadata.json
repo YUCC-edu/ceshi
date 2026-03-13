@@ -1,0 +1,5 @@
+{
+  "name": "关键词检测技能",
+  "description": "一个用于演示智能体框架关键词检测技能的测试应用。",
+  "requestFramePermissions": []
+}
